@@ -125,7 +125,7 @@ public class SlidingListLayout extends FrameLayout implements AbsListView.OnScro
     protected void onFinishInflate() {
         super.onFinishInflate();
 
-        mFrame = new FrameLayout(mContext);
+        mFrame = new FrameLayout(getContext());
         mFrame.setLayoutParams(
                 new ViewGroup.LayoutParams(
                         ViewGroup.LayoutParams.MATCH_PARENT,

@@ -37,7 +37,6 @@ public class ListScrubberSeekBar extends SeekBar {
         super(context, attrs, defStyle);
     }
 
-    @Override
     public boolean isInScrollingContainer() {
         // For the list scrubber seek bar we can simplify things by assuming this
         // is false.  This would only backfire if we attempt to put a list scrubber
